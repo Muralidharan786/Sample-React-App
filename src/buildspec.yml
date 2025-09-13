@@ -6,8 +6,13 @@ phases:
       nodejs: 18
     commands:
       - echo Installing dependencies...
+<<<<<<< HEAD
       - npm ci --legacy-peer-deps   # fixed typo (was "depes")
 
+=======
+      - npm ci --legacy-peer-deps
+  
+>>>>>>> 1ddaaebf596dd3dedde1c3429e4a831fb496ca19
   build:
     commands:
       - echo Building the React app...
@@ -16,5 +21,10 @@ phases:
 artifacts:
   files:
     - '**/*'
+<<<<<<< HEAD
   base-directory: build    
   discard-paths: no
+=======
+  base-directory: build
+  discard-paths: no
+>>>>>>> 1ddaaebf596dd3dedde1c3429e4a831fb496ca19
