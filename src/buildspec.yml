@@ -6,7 +6,7 @@ phases:
       nodejs: 18
     commands:
       - echo Installing dependencies...
-      - npm ci --legacy-peer-depes
+      - npm ci --legacy-peer-deps
   
   build:
     commands:
@@ -16,5 +16,5 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: dist
+  base-directory: build
   discard-paths: no
