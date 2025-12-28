@@ -47,14 +47,14 @@ import MortgageCalculator from './MortgageCalculator';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+   <BMICalculator />
     <MortgageCalculator />
     {/* <RegistrationForm />
     <RegisterForm /> */}
      {/* <ControlledForm /> 
      <br /> 
       <UncontrolledForm /> */}
-    <BMICalculator />
-    {/* <RegisterForm /> */}
+       {/* <RegisterForm /> */}
     {/* <Parent />
     <ParentComponent />  */}
 
